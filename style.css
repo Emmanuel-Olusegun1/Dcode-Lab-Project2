@@ -1,6 +1,4 @@
-/* ==========================================
-   DESIGN TOKENS & RESET (White Background Theme)
-   ========================================== */
+/* DESIGN TOKENS & RESET (White Background Theme) */
 *,
 *::before,
 *::after {
@@ -104,9 +102,7 @@ body {
     transition: var(--transition);
 }
 
-/* ==========================================
-   HERO SECTION
-   ========================================== */
+/* HERO SECTION */
 .hero {
     padding: 5rem 1.5rem;
     background-color: var(--bg);
@@ -172,9 +168,7 @@ body {
     display: block;
 }
 
-/* ==========================================
-   STATS SECTION
-   ========================================== */
+/* STATS SECTION */
 .stats {
     background-color: var(--surface);
     border-top: 1px solid var(--border);
@@ -209,9 +203,7 @@ body {
     font-weight: 500;
 }
 
-/* ==========================================
-   ABOUT SECTION
-   ========================================== */
+/* ABOUT SECTION */
 .about {
     padding: 5rem 1.5rem;
     background-color: var(--bg);
@@ -269,9 +261,7 @@ body {
     display: block;
 }
 
-/* ==========================================
-   SERVICES SECTION
-   ========================================== */
+/* SERVICES SECTION */
 .services {
     padding: 5rem 1.5rem;
     background-color: var(--surface);
@@ -335,9 +325,7 @@ body {
     font-size: 0.9rem;
 }
 
-/* ==========================================
-   FAQ SECTION
-   ========================================== */
+/* FAQ SECTION */
 .faq {
     padding: 5rem 1.5rem;
     background-color: var(--bg);
@@ -387,9 +375,7 @@ body {
     line-height: 1.5;
 }
 
-/* ==========================================
-   REUSABLE BUTTONS
-   ========================================== */
+/* REUSABLE BUTTONS */
 .button {
     display: inline-block;
     padding: 0.75rem 1.5rem;
@@ -422,9 +408,7 @@ body {
     border-color: var(--text-muted);
 }
 
-/* ==========================================
-   FOOTER COMPONENT
-   ========================================== */
+/* FOOTER COMPONENT */
 .footer {
     background-color: var(--surface);
     border-top: 1px solid var(--border);
@@ -489,9 +473,7 @@ body {
     font-size: 0.8rem;
 }
 
-/* ==========================================
-   RESPONSIVE MEDIA QUERIES (Desktop Scaling)
-   ========================================== */
+/* RESPONSIVE MEDIA QUERIES (Desktop Scaling)*/
 @media (min-width: 768px) {
     .stats__inner {
         grid-template-columns: repeat(3, 1fr);
